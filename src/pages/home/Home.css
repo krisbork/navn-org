@@ -1,0 +1,15 @@
+.download-btn * {
+    background: dodgerblue;
+    max-width: 10rem;
+    padding: 1.2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
