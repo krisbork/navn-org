@@ -12,9 +12,15 @@ code {
 }
 
 .container {
-  max-width: 1024px;
-  margin: 0 auto;
+  max-width: 1300px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  margin: 0 auto 90px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-bottom: 20px;
+  }
 }
